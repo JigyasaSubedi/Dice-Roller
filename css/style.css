@@ -1,6 +1,8 @@
 body {
-    background-color: #5dbad1;
-}
+    background-color: lightcyan;
+    background-image: linear-gradient(to left, rgb(9, 139, 226), rgb(144, 192, 247), rgb(82, 192, 192));
+    background-size: 100%;
+  }
 
 h1 {
     color: #fff;

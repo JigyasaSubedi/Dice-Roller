@@ -6,7 +6,17 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <button onclick="randomNumberGenerator()">D20</button>
-    <p id="randomNumber" style="display:none">Hello</p>
+    <button onclick="document.getElementById('demo1').innerHTML = randomNumberGenerator(0,20)">D20</button>
+    <p id="demo1"></p>
+    <button onclick="document.getElementById('demo2').innerHTML = randomNumberGenerator(0,12)">D12</button>
+    <p id="demo2"></p>
+    <button onclick="document.getElementById('demo3').innerHTML = randomNumberGenerator(0,12)">D10</button>
+    <p id="demo3"></p>
+    <button onclick="document.getElementById('demo4').innerHTML = randomNumberGenerator(0,12)">D8</button>
+    <p id="demo4"></p>
+    <button onclick="document.getElementById('demo5').innerHTML = randomNumberGenerator(0,12)">D6</button>
+    <p id="demo5"></p>
+    <button onclick="document.getElementById('demo6').innerHTML = randomNumberGenerator(0,12)">D4</button>
+    <p id="demo6"></p>
   </body>
 </html>
