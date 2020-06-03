@@ -1,3 +1,3 @@
 function randomNumberGenerator(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
+    return Math.floor(Math.random() * (max - min)) + min + 1;
   }
